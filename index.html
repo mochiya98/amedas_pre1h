@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>気象庁 直近1時間降水量(mm)</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+	*{margin:0;padding:0;}
+	body{color:#0ff;font-size:1.9rem;overflow:hidden;}
+	.overlay{position:absolute;top:0;left:0;}
+	#rr_desc{padding:10px;box-sizing:border-box;width:100%;}
+	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
+	<script src="./js/TrackballControls.min.js"></script>
+	<script src="./js/app.js" defer></script>
+</head>
+<body>
+	<article id="rr_container"></article>
+	<div class="overlay" id="rr_desc">
+		<aside>
+			<p>気象庁 直近1時間降水量(mm)</p>
+			<p id="dt"></p>
+		</aside>
+	</div>
+</body>
+</html>
