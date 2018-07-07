@@ -2,5 +2,5 @@
 3d-graph of AMeDAS 1hour-precipitation
 
 ## Demo
-[demo](https://m98.be/works/amedas_pre1h/)  
+[demo](https://github.m98.be/amedas_pre1h/)  
 ![preview](https://github.com/mochiya98/amedas_pre1h/raw/media/demo.gif)  
